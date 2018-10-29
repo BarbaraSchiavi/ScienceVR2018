@@ -1,0 +1,4 @@
+Laundry Basket readme file.
+
+Laundry Basket, low and high res files of a plastic laundry basket, in .obj format with .mtl texture.
+Freebie, created by Ruth Andrews 2011 ©.
