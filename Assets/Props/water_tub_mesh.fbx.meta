@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21954893479287f46ad28e00b1176138
+guid: 1bbec77efe257784f802cdcf04cf1dde
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,11 +8,10 @@ ModelImporter:
     2100000: lambert1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: cylindersubdivided
-    2186277476908879412: ImportLogs
+    4300000: mesh_water
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
