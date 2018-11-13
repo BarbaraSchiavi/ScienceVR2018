@@ -175,9 +175,8 @@
             // GameObject randomGO = goList[Random.RandomRange(0.0f, goList.Count)];
             if (goList.Count != 0)
             {
-                Instantiate(goList[Random.Range(0, goList.Count)], this.transform.position, Quaternion.identity);
+                Instantiate(goList[Random.Range(0, goList.Count)], this.transform.position, Quaternion.identity);     
             }
-
         }
     }
 }

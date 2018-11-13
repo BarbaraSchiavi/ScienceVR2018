@@ -403,7 +403,7 @@ namespace VRTK
             ToggleEnableState(true);
 
             //Debug.Log("OBJET EST GRABBED");
-            this.GetComponent<ObjectManager>().GravityBack();
+            //this.GetComponent<ObjectManager>().GravityBack();
 
             if (!IsGrabbed() || IsSwappable())
             {

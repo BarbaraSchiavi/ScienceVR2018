@@ -13,7 +13,7 @@ public class CollisionTestCondIso : MonoBehaviour {
         if (c.gameObject.tag == "object")
         {
             //Debug.Log("Un Seul Objet");
-            sm.SetObjectOnTest(true);
+            //sm.SetObjectOnTest(true);
 
            // c.gameObject.GetComponent<ObjectManager>().SnapToPlateau(this.transform.position);
 
@@ -38,7 +38,7 @@ public class CollisionTestCondIso : MonoBehaviour {
         if (c.gameObject.tag == "object")
         {
             //Debug.Log("OnTriggerExit");
-            sm.SetObjectOnTest(false);
+            //sm.SetObjectOnTest(false);
             sm.SetObjectOnTestIsConductor(false);
             
         }
