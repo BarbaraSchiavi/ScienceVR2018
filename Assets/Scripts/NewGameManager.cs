@@ -107,10 +107,7 @@ public sealed class NewGameManager : MonoBehaviour {
         //start flashing lights
         StartCoroutine(coroutine);
         //vfx bolt lights
-        Instantiate(vfx, new Vector3(fxPos.position.x + 0.5f, fxPos.position.y, fxPos.position.z + 0.5f), Quaternion.identity);
-        Instantiate(vfx, new Vector3(fxPos.position.x + 0.5f, fxPos.position.y, fxPos.position.z - 0.5f), Quaternion.identity);
-        Instantiate(vfx, new Vector3(fxPos.position.x - 0.5f, fxPos.position.y, fxPos.position.z + 0.5f), Quaternion.identity);
-        Instantiate(vfx, new Vector3(fxPos.position.x - 0.5f, fxPos.position.y, fxPos.position.z - 0.5f), Quaternion.identity);
+        Instantiate(vfx, new Vector3(fxPos.position.x, fxPos.position.y, fxPos.position.z), Quaternion.identity);
         //play sfx of bolt lights
         BoltAudio.GetComponent<AudioSource>().Play();
         //find objects "nothing" and put them on gravity
