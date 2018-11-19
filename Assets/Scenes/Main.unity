@@ -4268,7 +4268,7 @@ MonoBehaviour:
   PartyLight: {fileID: 1321180}
   MainLight: {fileID: 452755135}
   BoltAudio: {fileID: 625184600}
-  vfx: {fileID: 1179809721236326, guid: 6e81ad7b6d010274ca07c5c894fe9e6b, type: 2}
+  vfx: {fileID: 1690240746052926, guid: e355500ea85ad0143927d6c876f0a4ad, type: 2}
   fxPos: {fileID: 813047883}
 --- !u!4 &505765391
 Transform:
